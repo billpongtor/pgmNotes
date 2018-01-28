@@ -1,0 +1,4 @@
+      <a href="file:///E:/html/pgmNotes/gitHtml/gitObservations.html">git observations</a><br />
+      <a href="file:///E:/html/pgmNotes/gitHtml/gitAdd.html">git add</a><br />
+      <a href="file:///E:/html/pgmNotes/gitInfo.html">git info</a><br />
+      <a href="file:///E:/html/pgmNotes/start.html">home</a><br />
