@@ -1,0 +1,8 @@
+list files in repository:
+git ls-files
+
+list files that have changed:
+git diff
+
+add umodified files:
+git add -u
