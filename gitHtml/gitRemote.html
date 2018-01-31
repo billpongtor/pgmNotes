@@ -12,28 +12,24 @@
     <div id="header">
       <h1>how to use git with a remote repository</h1>
 <p><br />
-The git command works very well with a remote repository.<br />
-For the purpose of this topic,  we will use github.com as our remote repository example.<br />
-Important elements needed for the use of github.com are the following:<br /><br />
+The git command works very well with a remote repository.  For the purpose of this topic,<br />
+we will use github.com as our remote repository example.  Important elements needed for the use of github.com are the following:<br /><br />
 1.  An account on github.com.  This will give us an account name,  plus the associated password.<br /><br />
-2.  A repository created in the respective github.com account.  The complete https url will be<br />
-    required to establish the location of the remote repository with git.  Github.com has tools<br />
-    that allow the user to obtain that information easily.<br /><br />
+2.  A repository created in the respective github.com account.  The complete https url will be required to establish the location<br />
+of the remote repository with git.  github.com has tools that allow the user to obtain that information easily.<br /><br />
 'git' must be configured with your username and user email before proceding to do any remote work.<br />
 'git config --global user.name "username" sets the git username.<br />
 'git config --global user.email "useremail" sets the git user email address.<br />
 Examples:<br />
 git config --global user.name "billpongtor" (my github username)<br />
 git config --global user.email "bill.pong.tor@gmail.com" (my gmail address)<br /><br />
-The remotes URL must be set before pushing local repo to the remote repo.<br />
-github.com has tools to copy the repos url address directly to the desktops clipboard.<br />
-After the url address has been copied, the basic git command to set the remote URL is the following:<br />
-'git remote set-url origin urlAddress' (paste in the url address)<br />
-Confirm that the url address has been set by using command 'git remote -v' (verifying the url setting).<br /><br />
-Once the origin has been setup,  then the command to push files to the remote repos is the following:<br />
-'git push origin master'<br />
-'origin' is the url that has been set using 'git remote set-url origin urlAddress'.<br />
-'master' is the working branch located in the local workstation.<br />
+The remotes URL must be set before pushing local repo to the remote repo.  github.com has tools to copy the repos url address directly<br />
+to the desktops clipboard.  After the url address has been copied, the basic git command to set the remote URL is the following:<br /><br />
+'git remote add origin urlAddress' (paste in the url address)<br /><br />
+Confirm that the url address has been set by using command 'git remote -v' (verifying the url setting).<br />
+Once the origin has been setup,  then the command to push files to the remote repo is the following:<br /><br />
+'git push origin master'<br /><br />
+'origin' is the url that has been set using 'git remote set-url origin urlAddress'.  'master' is the working branch located in the local workstation.<br />
 The git push command will copy the 'prestaged' files to the remote repository.<br /><br />
 </p>
       <a href="file:///E:/html/pgmNotes/gitInfo.html">back</a><br /><br />
